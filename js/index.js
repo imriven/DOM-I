@@ -129,12 +129,13 @@ titleStyle.style.textShadow = "2px 2px 8px red"
 
 
 const buttonStyle = document.querySelector('.cta button');
-buttonStyle.style.backgroundImage = "linear-gradient(50deg, lightGreen, blue)"
+buttonStyle.style.backgroundImage = "linear-gradient(50deg, lightGreen, #788DDE, blue)"
 buttonStyle.style.boxShadow = "2px 2px 8px red"
 
 const imgStyle = document.querySelector('.cta img');
 imgStyle.style.borderRadius = "100%"
-imgStyle.style.boxShadow = "2px 2px 8px red"
+imgStyle.style.boxShadow = "6px 6px 8px #788DDE"
 
 
-// #788DDE
+const imgStyle2 = document.querySelector('.main-content img');
+imgStyle2.style.boxShadow = "5px 5px 8px #788DDE"
